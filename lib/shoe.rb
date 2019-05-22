@@ -1,3 +1,5 @@
+required "pry"
+
 class Shoe
   def initialize(brand)
     @brand =brand
@@ -11,9 +13,6 @@ class Shoe
 
   def cobble
     puts "Your shoe is as good as new!"
-    when @cobble
-      condition = new
+    binding.pry
   end
-  
-  
 end
